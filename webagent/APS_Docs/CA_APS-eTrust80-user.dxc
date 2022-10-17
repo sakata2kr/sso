@@ -1,0 +1,237 @@
+# Netegrity APS schema for eTrust 8.0
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.6) = {
+	name = smapsExpirePasswordDays
+	ldap-names = smapsExpirePasswordDays
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.23) = {
+	name = smapsPreviousLogin
+	ldap-names = smapsPreviousLogin
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.2) = {
+	name = smapsAccountInactivityDays
+	ldap-names = smapsAccountInactivityDays
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.3) = {
+	name = smapsBaseDate
+	ldap-names = smapsBaseDate
+	syntax = caseIgnoreString
+	single-valued
+};
+
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.20) = {
+	name = smapsNextAction
+	ldap-names = smapsNextAction
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.15) = {
+	name = smapsLastLogin
+	ldap-names = smapsLastLogin
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.26) = {
+	name = smfpsLockoutCounter
+	ldap-names = smfpsLockoutCounter
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.13) = {
+	name = smapsImmediateChange
+	ldap-names = smapsImmediateChange
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.8) = {
+	name = smapsFailuresSinceLastLogin
+	ldap-names = smapsFailuresSinceLastLogin
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.21) = {
+	name = smapsOldBlob
+	ldap-names = smapsOldBlob
+	syntax = caseIgnoreString
+	single-valued
+};
+
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.7) = {
+	name = smapsFailureCount
+	ldap-names = smapsFailureCount
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.25) = {
+	name = smapsTotalLogins
+	ldap-names = smapsTotalLogins
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.11) = {
+	name = smapsGraceLoginsUsed
+	ldap-names = smapsGraceLoginsUsed
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.10) = {
+	name = smapsGenerationalRedirects
+	ldap-names = smapsGenerationalRedirects
+	syntax = caseIgnoreString
+	multi-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.5) = {
+	name = smapsDisableUntil
+	ldap-names = smapsDisableUntil
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.22) = {
+	name = smapsPassword
+	ldap-names = smapsPassword
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.19) = {
+	name = smapsMustLoginBy
+	ldap-names = smapsMustLoginBy
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.27) = {
+	name = smfpsLog
+	ldap-names = smfpsLog
+	syntax = caseIgnoreString
+	multi-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.4) = {
+	name = smapsDisableAfter
+	ldap-names = smapsDisableAfter
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.9) = {
+	name = smapsFailuresSincePreviousLogin
+	ldap-names = smapsFailuresSincePreviousLogin
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.17) = {
+	name = smapsLoginHistory
+	ldap-names = smapsLoginHistory
+	syntax = caseIgnoreString
+	multi-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.12) = {
+	name = smapsHistory
+	ldap-names = smapsHistory
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.18) = {
+	name = smapsMaxFailures
+	ldap-names = smapsMaxFailures
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.16) = {
+	name = smapsLastPasswordChange
+	ldap-names = smapsLastPasswordChange
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.28) = {
+	name = smfpsOneShot
+	ldap-names = smfpsOneShot
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.24) = {
+	name = smapsTotalFailures
+	ldap-names = smapsTotalFailures
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.14) = {
+	name = smapsInactivityWarning
+	ldap-names = smapsInactivityWarning
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set attribute (1.3.6.1.4.1.2552.1.1.9.29) = {
+	name = smapsRealmBasedFailureCount
+	ldap-names = smapsRealmBasedFailureCount
+	syntax = caseIgnoreString
+	single-valued
+};
+
+schema set object-class (1.3.6.1.4.1.2552.1.1.9.1) = {
+	name = smapsInfo
+	ldap-names = smapsInfo
+	subclass-of subschema
+	kind = auxiliary
+	must-contain
+		objectclass
+	may-contain
+		smapsExpirePasswordDays,
+		smapsPreviousLogin,
+		smapsAccountInactivityDays,
+		smapsBaseDate,
+		smapsNextAction,
+		smapsLastLogin,
+		smfpsLockoutCounter,
+		smapsImmediateChange,
+		smapsFailuresSinceLastLogin,
+		smapsOldBlob,
+		smapsFailureCount,
+		smapsTotalLogins,
+		smapsGraceLoginsUsed,
+		smapsGenerationalRedirects,
+		smapsDisableUntil,
+		smapsPassword,
+		smapsMustLoginBy,
+		smfpsLog,
+		smapsDisableAfter,
+		smapsFailuresSincePreviousLogin,
+		smapsLoginHistory,
+		smapsHistory,
+		smapsMaxFailures,
+		smapsLastPasswordChange,
+		smfpsOneShot,
+		smapsTotalFailures,
+		smapsInactivityWarning,
+		smapsRealmBasedFailureCount
+};

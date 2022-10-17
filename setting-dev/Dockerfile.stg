@@ -1,0 +1,44 @@
+#
+# [ STG/DEV ]
+# 1. CentOS        => swgd.icp.skt.com:8500/infra/centos:centos7.6.1810
+# 2. Apache 2.4.39 => swgd.icp.skt.com:8500/infra/mwpack/apache:2.4.39
+
+# base images httpd2.4
+FROM swgp.icp.skt.com:8500/infra/mwpack/apache:2.4.39
+# Writer
+MAINTAINER <swing msa>
+
+
+# docker Agent Path : /usr/local/apache2/sso/webagent
+# docker apache Path : /usr/local/apache2/conf
+
+# WebAgent setting
+# local host~W~P ~^~H~J~T webagent ~T~T| ~I~F|  ~E~L~]~D~H /usr/local/apache2/sso/webagent~\ ~]~O~Y
+RUN mkdir /appsw
+RUN mkdir /appsw/ssoweb
+RUN mkdir /appsw/ssoweb/SSO
+COPY webagent /appsw/ssoweb/SSO/webagent
+
+# Shell file
+COPY rathon.sh /rathon.sh
+#RUN chown root:www-data /rathon.sh
+RUN chmod 751 /rathon.sh
+
+# Apache setting
+# httpd.conf, AgentId.dat~J~T ~F~\ ~B~Z ~K~\ Base image ~C~]~D ~[~D ~B~Z
+COPY apache/httpd.conf  /usr/local/apache2/conf/httpd.conf
+COPY apache/WebAgent.conf  /usr/local/apache2/conf/WebAgent.conf
+COPY apache/AgentId.dat /usr/local/apache2/conf/AgentId.dat
+RUN chmod 755 /usr/local/apache2/conf/WebAgent.conf
+
+#RUN chown -R root:www-data /usr/local/apache2
+#RUN chown -R root:www-data /appsw/ssoweb/SSO/webagent
+RUN chown daemon:daemon /appsw/ssoweb/SSO/webagent/log
+ENV LD_LIBRARY_PATH /appsw/ssoweb/SSO/webagent/bin:appsw/ssoweb/SSO/webagent/bin/thirdparty:${LD_LIBRARY_PATH}
+ENV PATH /appsw/ssoweb/SSO/webagent/bin:$PATH
+#RUN /bin/bash -c "source /appsw/ssoweb/SSO/webagent/ca_wa_env.sh"
+
+# ~E~L~]~D~H ~O~Y ~K~\ rathon.sh~@ ~\~H~\ ~O~Y ~P~X~O~D~] ~B~Z~U~X~J~T ~X~E~X~W~P ~T~@
+WORKDIR /
+CMD ["sh", "-c", "/rathon.sh"]
+#CMD ["/bin/bash"]

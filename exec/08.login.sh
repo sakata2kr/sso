@@ -1,0 +1,1 @@
+docker login https://zcplocal.icp:8500

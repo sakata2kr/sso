@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apihub-sso
+  namespace: apih-stg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apihub-sso
+  template:
+    metadata:
+      labels:
+        app: apihub-sso
+        appgroup: apih-etc
+        deployment: product
+    spec:
+      topologySpreadConstraints:
+      - maxSkew: 1
+        topologyKey: "topology.kubernetes.io/zone"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+          matchLabels:
+            appgroup: apih-etc
+      - maxSkew: 1
+        topologyKey: "kubernetes.io/hostname"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+          matchLabels:
+            appgroup: apih-etc
+      containers:
+      - name: apihub-sso
+        image: doss-harbor.sktelecom.com/apihub-public-hosted/apih-stg/apih-apihub-sso:1.0.0
+        imagePullPolicy: Always
+        env:
+        - name: SSO_IP
+          valueFrom:
+            configMapKeyRef:
+              name: sso-config
+              key: sso.ip
+        - name: SSO_IP2
+          valueFrom:
+            configMapKeyRef:
+              name: sso-config
+              key: sso.ip2
+        - name: SSO_HCO
+          valueFrom:
+            configMapKeyRef:
+              name: sso-config
+              key: sso.hco
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: 400m
+            memory: 4Gi
+          limits:
+            memory: 4Gi
+        volumeMounts:
+        - name: pvc-applog
+          mountPath: /applog
+      imagePullSecrets:
+      - name: harbor-image-pull
+      volumes:
+      - name: pvc-applog
+        persistentVolumeClaim:
+          claimName: applog-stg
+

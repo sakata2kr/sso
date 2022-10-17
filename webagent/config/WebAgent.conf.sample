@@ -1,0 +1,120 @@
+#
+# WebAgent.conf.sample - sample local configuration file for SiteMinder Web Agents
+#
+# Make a copy of this file and modify that copy with desired local configuration settings.
+# '#' is used as a comment character at the beginning of a line.  Values commented out
+# can be uncommented once proper values are specified.  Many such values in this
+# sample file are verbose explanations of what values should be used and not the
+# values themselves.  To uncomment a line simply remove the '#' from the beginning
+# of the line.  
+#
+# Most parameters in this file are also valid in an Agent Configuration Object.
+# The exceptions are AgentConfigObject, EnableWebAgent, and HostConfigFile.
+#
+
+#AgentName="<Agent Name>,<IPAddress>"
+#DefaultAgentName=""
+ForceFQHost="NO"
+ForceCookieDomain="NO"
+CookieDomain=""
+CookieDomainScope="0"
+SSOZoneName="SM"
+SSOTrustedZone="SM"
+#IgnoreExt=""
+OverrideIgnoreExtFilter=""
+#IgnoreUrl="<URL to ignore>"		APACHE, DOMINO, & IPLANET ONLY
+#IgnoreHost="<Host to ignore>"
+#CCCExt=".ccc"
+#FCCExt=".fcc"
+#SFCCExt=".sfcc"
+#NTCExt=".ntc"
+#SCCExt=".scc"
+BadUrlChars="//,./,/.,/*,*.,~,\,%00-%1f,%7f-%ff,%25"
+#BadQueryChars=""
+#BadCSSChars="<,>,',;"
+#BadFormChars="<,>,&,%22"
+CSSChecking="YES"
+#CSSErrorFile="<File path to error text, or URL to redirect to>"
+#ServerErrorFile="<File path to error text, or URL to redirect to>"
+#RequireCookieErrorFile="<File path to error text, or URL to redirect to>"
+#CookieProvider="<cookie provider URL>"
+#LogOffUri="<Your Logoff Uri>"
+PSPollInterval="30"
+MaxResourceCacheSize="700"
+ResourceCacheTimeout="600"
+MaxSessionCacheSize="700"
+EnableAuditing="NO"
+Enableauthorization="YES"
+EnableFormCache="YES"
+FormCacheTimeout="600"
+FCCForceIsProtected="YES"
+EnableMonitoring="NO"
+RequireCookies="YES"
+PersistentCookies="NO"
+UseSecureCookies="NO"
+SaveCredsTimeout="720"
+TransientIDCookies="NO"
+EnableWebAgent="NO"
+EnforcePolicies="YES"
+LowerCaseHTTP="NO"
+HTTPHeaderEncodingSpec=""
+DisableAuthSrcVars="NO"
+DisableSessionVars="NO"
+DisableUserNameVars="NO"
+LegacyVariables="YES"
+CacheAnonymous="NO"
+PersistentIPCheck="YES"
+TransientIPCheck="NO"
+PreserveHeaders="NO"
+GetPortFromHeaders="NO"
+#UseAnonAccess="NO"			IIS ONLY
+SetRemoteUser="NO"
+RemoteUserVar=""
+DeleteCerts="NO"
+#httpsports=""				APACHE ONLY
+#SkipDominoAuth="YES"			DOMINO ONLY
+#DominoUseHeaderForLogin=""		DOMINO ONLY
+#DominoLookUpHeaderForLogin="NO"	DOMINO ONLY
+#DominoLegacyDocumentSupport="NO"	DOMINO ONLY
+SessionGracePeriod="30"
+SessionUpdatePeriod="60"
+#ServerPath=""				APACHE & IPLANET ONLY
+ProxyTrust="NO"
+#ProxyAgent="NO"				APACHE ONLY
+#ProxyTimeout=""				APACHE ONLY
+SecureApps="NO"
+EnforceRealmTimeouts="NO"
+AllowCacheHeaders="NO"
+DecodeQueryData="NO"
+IgnoreQueryData="NO"
+AgentConfigObject=""
+HostConfigFile=""
+MaxUrlSize="4096"
+FCCCompatMode="YES"
+TraceFile="NO"
+#TraceFileName="<File Path to write log to>"
+#TraceConfigFile="<Path to the trace configuration file>"
+#TraceAppend="NO"
+#TraceFileSize="<Size at which the trace file should roll in MB>"
+#TraceFormat=""
+#TraceDelimeter=""
+LogFile="NO"
+#LogFileName="<File Path to write log to>"
+#LogAppend="NO"
+#LogFileSize="<Size at which the trace file should roll in MB>"
+LegacyEncoding="YES"
+ConstructFullPwsvcUrl="NO"
+DisableDotDotRule=NO
+#DisablePostDataLimit="NO"		IIS ONLY
+#UseSessionForAnonymous="YES"
+#TargetAsRelativeURI="NO"
+#IgnoreXMLSDK="YES"
+#P3PCompactPolicy=""				IIS ONLY
+#ForceIISProxyUser="NO"			IIS ONLY
+#InsecureServer="NO"			IIS ONLY
+#ExpireForProxy="NO"			PROXY SERVERS ONLY
+AgentNamesAreFQHostNames="NO"
+EncryptAgentName="YES"
+AcceptTPCookie="NO"
+LogLocalTime="YES"
+#OverlookSessionForMethodURI="<METHOD>,<URI>"

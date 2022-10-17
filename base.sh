@@ -1,0 +1,1 @@
+docker build --build-arg 'DOCKER_REGISTRY=swgd.icp.skt.com:8500' --build-arg 'DOCKER_DVS_NAMESPACE=devs-stg' --build-arg 'VERSION=2.4.39' --build-arg 'BUILD_ENV=stg' -t swgd.icp.skt.com:8500/smtp-stg/apache:2.4.39 .

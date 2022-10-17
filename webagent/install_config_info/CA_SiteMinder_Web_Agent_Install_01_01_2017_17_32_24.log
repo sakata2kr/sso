@@ -1,0 +1,3419 @@
+__________________________________________________________________________
+
+Sun Jan 01 17:32:32 KST 2017
+
+Free Memory: 383951 kB
+Total Memory: 558592 kB
+
+2 Command Line Args:
+0:  -i
+1:  console
+
+java.class.path:
+    /tmp/install.dir.11153/InstallerData
+    /tmp/install.dir.11153/InstallerData/installer.zip
+
+ZGUtil.CLASS_PATH:
+    /tmp/install.dir.11153/InstallerData
+    /tmp/install.dir.11153/InstallerData/installer.zip
+
+sun.boot.class.path:
+    /tmp/install.dir.11153/Linux/resource/jre/lib/resources.jar
+    /tmp/install.dir.11153/Linux/resource/jre/lib/rt.jar
+    /tmp/install.dir.11153/Linux/resource/jre/lib/sunrsasign.jar
+    /tmp/install.dir.11153/Linux/resource/jre/lib/jsse.jar
+    /tmp/install.dir.11153/Linux/resource/jre/lib/jce.jar
+    /tmp/install.dir.11153/Linux/resource/jre/lib/charsets.jar
+    /tmp/install.dir.11153/Linux/resource/jre/lib/jfr.jar
+    /tmp/install.dir.11153/Linux/resource/jre/classes
+
+java.ext.dirs:
+    /tmp/install.dir.11153/Linux/resource/jre/lib/ext
+    /usr/java/packages/lib/ext
+
+java.version                  == 1.8.0_72 (Java 1)
+java.vm.name                  == Java HotSpot(TM) 64-Bit Server VM
+java.vm.vendor                == Oracle Corporation
+java.vm.version               == 25.72-b15
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Oracle Corporation
+java.vm.specification.version == 1.8
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Oracle Corporation
+java.specification.version    == 1.8
+java.vendor                   == Oracle Corporation
+java.vendor.url               == http://java.oracle.com/
+java.class.version            == 52.0
+java.library.path             == /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.compiler                 == null
+java.home                     == /tmp/install.dir.11153/Linux/resource/jre
+java.io.tmpdir                == /tmp
+os.name                       == Linux
+os.arch                       == amd64
+os.version                    == 3.10.0-327.22.2.el7.x86_64
+path.separator                == :
+file.separator                == /
+file.encoding                 == CP949
+user.name                     == ssoweb
+user.home                     == /appsw/ssoweb
+user.dir                      == /tmp/install.dir.11153
+user.language                 == ko
+user.region                   == null
+__________________________________________________________________________
+
+Installed Feature(s) install of CA SiteMinder Web Agent
+
+Install Begin: JANUARY 1, 2017 5:31:49 PM KST
+Install End: JANUARY 1, 2017 5:32:31 PM KST
+
+Installed by InstallAnywhere 16.0 Premier Build 4783
+
+
+User Interactions
+-----------------
+
+
+#Choose Install Location
+#-----------------------
+USER_INSTALL_DIR=/appsw/ssoweb/SSO/webagent
+
+#Install
+#-------
+-fileOverwrite_/tmp/029287.tmp/webagent.txt=Yes
+-fileOverwrite_/appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-uninstall/uninstall.lax=Yes
+-fileOverwrite_/appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-installer.properties=Yes
+-fileOverwrite_/appsw/ssoweb/SSO/webagent/bin/SmPortal.cfg=Yes
+
+Summary
+-------
+
+Installation: Successful.
+
+1082 Successes
+0 Warnings
+0 NonFatalErrors
+0 FatalErrors
+
+Action Notes:
+
+None
+
+Install Log Detail:
+
+Check Disk Space:         /appsw/ssoweb/CA/webagent
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 205,730,631; Free Disk Space: 20,964,245,504
+
+
+
+
+
+
+
+
+
+
+
+
+CutString: 12
+
+
+CutLeftover: .52.0106.2209
+
+Custom Action:            com.netegrity.brlib.utilities.string.CutString
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.netegrity.brlib.utilities.string.CopyString
+                          Status: SUCCESSFUL
+
+
+
+CutString: 52
+
+
+CutLeftover: .0106.2209
+
+Custom Action:            com.netegrity.brlib.utilities.string.CutString
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.netegrity.brlib.utilities.string.CopyString
+                          Status: SUCCESSFUL
+
+
+
+CutString: 0106
+
+
+CutLeftover: .2209
+
+Custom Action:            com.netegrity.brlib.utilities.string.CutString
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.netegrity.brlib.utilities.string.CopyString
+                          Status: SUCCESSFUL
+
+
+
+CutString: 2209
+
+
+CutLeftover: 
+
+Custom Action:            com.netegrity.brlib.utilities.string.CutString
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.netegrity.brlib.utilities.string.CopyString
+                          Status: SUCCESSFUL
+
+
+
+
+
+
+
+
+Custom Action:            com.netegrity.brlib.customcode.GetEnvironmentVariables
+                          Status: SUCCESSFUL
+
+
+Check Disk Space:         /appsw/ssoweb/SSO/webagent
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 416,048,873; Free Disk Space: 20,965,064,704
+
+
+ValidateInstallDir.install()
+
+Custom Action:            com.netegrity.brlib.customcode.ValidateInstallDir
+                          Status: SUCCESSFUL
+
+
+
+
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+Custom Action:            com.netegrity.webagent.install.GetPreviousVersion
+                          Status: SUCCESSFUL
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+Custom Action:            com.netegrity.webagent.install.SetDisplayVersion
+                          Status: SUCCESSFUL
+
+
+
+
+
+
+
+
+
+Execute Command:          uname -a
+                          Status: SUCCESSFUL
+
+
+
+
+
+
+
+Check Disk Space:         /appsw/ssoweb/SSO/webagent
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 416,048,873; Free Disk Space: 20,965,064,704
+
+Install Directory:        /tmp/029287.tmp/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+
+Install File:             /tmp/029287.tmp/webagent.txt
+                          Status: SUCCESSFUL
+
+Install Directory:        /tmp/029287.tmp/etpki-install/
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/
+                          Status: SUCCESSFUL
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+Custom Action:            com.netegrity.brlib.utilities.webservers.GetAndSetInstallPath
+                          Status: SUCCESSFUL
+
+Custom Action:            com.netegrity.webagent.install.UnconfigWA
+                          Status: SUCCESSFUL
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+Custom Action:            com.netegrity.webagent.install.ProcessBeforeDataMove
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-config.bin
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmvariable.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libmod_sm20.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libAffiliate10Plugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libHttpPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSAMLAffiliatePlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSAMLDataPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSPPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSPConfigModule.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmsharepointagentcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libOpenIDPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libOAuthPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libDisambiguatePlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmsamlagentcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmhttpagentcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmaffiliateagentcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libeTSSOPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libCertSessionLinkerPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/smreghost
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmgda.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmerrlog.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libfipsmode.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmagentconmgrcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmagentfunccomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmcommonutil.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmi18n.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSmXlate.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/pin.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmjavaagentapi.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/btrow423.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/btlat423.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/btkor423.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/btjpn423.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libbtunicode.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/btchi423.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/LLAWP
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmagentframeworkcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmeventlog.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmeventlogger.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libTxMinderPlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libiculx.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicudata.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicule.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicuuc.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicutest.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicuio.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicui18n.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libicutu.so.49
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmxmlagentcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmconapi.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/stub/libsmvariable.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/non_stub/libsmvariable.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSunOneWebAgent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libmod_sm22.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libmod_sm24.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libIntroscopePlugin.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libIntroscopeNativeDataAPI.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libkrb5.so.3
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libgssapi_krb5.so.2
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libk5crypto.so.3
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libcom_err.so.3
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libkrb5support.so.0
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmwebagentcomponent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libdominowebagent.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/APSPing
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/SmPortalTest
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/SmPortalVfy
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/APSEncrypt
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/APSVersion
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/APSXLateTest
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libSmPortal.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libAPSXLate.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libAPSAPI.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/libsmagentapi.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/APSAdmin/APSAdmin
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/CPW/SmCPW
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Forgot
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Confirm.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Verify-Missing.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-TooRecentlyUsed.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Verify-Invalid.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-Disabled.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-TooRecentlyAttempted.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Verify-NoData.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Change.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-Missing.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-Multiple.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Verify-Timeout.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/NoMail.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Verify.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Change-Timeout.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Error.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-Lockout.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/web/FPS/Identify-NotFound.jsp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libcaopenssl_ssl.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libcryptocme.sig
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libcapki.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libcaopenssl_crypto.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libccme_asym.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libccme_error_info.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libccme_ecc.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libcapki_thread_posix.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libccme_ecc_accel_fips.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libccme_base.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/lib/libcryptocme.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/capki/log/_capki_log.cfg
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/capki/log/README.txt
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/CAPKI/CAPKI5/Linux/amd64/64/capki/log/liblog_api.so
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/dms.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/pin.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/env.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/cryptoj.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/servlet.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/smconapi.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/smjavaagentapi.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/java/smjavasdk2.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/jpw_default/jpw.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/readme.txt
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/license.txt
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Configuration/SmPortal.cfg
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/dmspages/Blank.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/dmspages/Disabled.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/dmspages/Redisable.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/dmspages/Unknown.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/loginandregister_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/login_en-US.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/loginandregisterwithforgottenpassword_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/passport_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/fw2tr.pptemplate
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/Registration_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/DynamicRetry_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/smaceauth_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/awdemo_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/fullname_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/imp_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/Registration_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/DynamicRetry_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/loginusername_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/savecreds_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/usermap_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/smaceauth_en-US.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/InfoCard/images/infocard.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/InfoCard/InformationCards.js
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/InfoCard/InformationCards.css
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/usermap_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/tr2fw.pptemplate
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/images/openid-inputicon.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/images/openid-providers-ru.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/images/openid-providers-en.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/images/openid-providers-uk.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/loginandregister_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/safeword_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/dmslogout_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/openid_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/smpwservices_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/msrlogout_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/smpwservices_en-US.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/reauthenticate_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/transpolar_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/savecreds_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/InfoCard_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/smpwservices_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/selectlogin_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/smformscgi.cpp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/chslogin_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/deny_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/login-validate_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/chslogin_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/openid-single_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/login_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/login_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_en-US/fullname_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/usermap_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/smpwservices_fr-FR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/chslogin_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/InfoCard_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/chslogin_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/transpolar_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/smpwservices_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/loginusername_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/fullname_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/loginandregisterwithforgottenpassword_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/Registration_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/DynamicRetry_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/smaceauth_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/loginandregister_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/passport_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/deny_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/selectlogin_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/smaceauth_fr-FR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/smformscgi_fr-FR.cpp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/login_fr-FR.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/fullname_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/smpwservices_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/oauth-single_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/reauthenticate_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/usermap_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/oauth_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/dmslogout_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/Registration_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/DynamicRetry_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/oauthcb_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/msrlogout_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/awdemo_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/login_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/savecreds_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/openid-single_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/safeword_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/imp_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/login-validate_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/savecreds_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/login_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/openid_fr-FR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_fr-FR/loginandregister_fr-FR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/oauthcb_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/reauthenticate_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/awdemo_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/InfoCard/InformationCards.css
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/InfoCard/images/infocard.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/InfoCard/InformationCards.js
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/selectlogin_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/loginandregister_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/safeword_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/openid-single_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/smformscgi.cpp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/login_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/smaceauth_ja-JP.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/openid_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/loginandregister_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/smpwservices_ja-JP.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/login-validate_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/login_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/imp_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/usermap_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/InfoCard_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/Registration_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/DynamicRetry_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/loginandregisterwithforgottenpassword_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/smaceauth_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/savecreds_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/fullname_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/login_ja-JP.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/deny_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/chslogin_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/Registration_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/DynamicRetry_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/fullname_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/loginusername_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/dmslogout_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/usermap_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/msrlogout_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/passport_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/savecreds_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/smpwservices_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/oauth-single_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/smpwservices_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/oauth_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/transpolar_ja-JP.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ja-JP/chslogin_ja-JP.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/openid_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/selectlogin_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/dmslogout_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/smpwservices_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/fullname_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/msrlogout_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/Registration_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/DynamicRetry_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/loginandregister_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/login_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/smpwservices_ko-KR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/savecreds_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/safeword_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/loginandregisterwithforgottenpassword_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/openid-single_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/usermap_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/oauth-single_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/smpwservices_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/oauth_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/reauthenticate_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/oauthcb_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/InfoCard_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/deny_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/Registration_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/DynamicRetry_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/chslogin_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/chslogin_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/login_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/imp_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/login-validate_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/fullname_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/awdemo_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/savecreds_ko-KR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/usermap_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/loginusername_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/login_ko-KR.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/loginandregister_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/smaceauth_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/smaceauth_ko-KR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/passport_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_ko-KR/transpolar_ko-KR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/imp_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/deny_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/Registration_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/DynamicRetry_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/openid-single_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/loginandregister_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/Registration_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/DynamicRetry_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/reauthenticate_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/smaceauth_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/awdemo_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/oauthcb_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/passport_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/savecreds_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/smpwservices_it-IT.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/fullname_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/oauth-single_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/smpwservices_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/openid_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/dmslogout_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/login-validate_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/msrlogout_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/usermap_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/oauth_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/savecreds_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/safeword_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/loginusername_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/smpwservices_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/InfoCard_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/login_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/selectlogin_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/chslogin_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/loginandregister_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/chslogin_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/usermap_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/loginandregisterwithforgottenpassword_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/login_it-IT.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/smaceauth_it-IT.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/login_it-IT.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/fullname_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_it-IT/transpolar_it-IT.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/loginandregister_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/imp_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/dmslogout_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/usermap_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/loginandregisterwithforgottenpassword_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/msrlogout_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/passport_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/savecreds_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/chslogin_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/savecreds_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/loginusername_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/smpwservices_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/reauthenticate_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/usermap_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/selectlogin_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/Registration_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/DynamicRetry_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/loginandregister_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/safeword_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/login-validate_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/awdemo_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/oauth-single_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/smpwservices_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/login_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/oauth_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/fullname_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/Registration_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/transpolar_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/openid-single_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/InfoCard_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/DynamicRetry_pt-BR.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/oauthcb_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/smaceauth_pt-BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/deny_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/openid_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/smaceauth_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/chslogin_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/login_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/login_pt-BR.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/fullname_pt-BR.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_pt-BR/smpwservices_pt-BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/msrlogout_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/loginandregister_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/reauthenticate_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/loginandregister_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/smaceauth_de-DE.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/savecreds_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/chslogin_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/oauthcb_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/awdemo_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/safeword_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/Registration_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/DynamicRetry_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/login-validate_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/transpolar_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/openid_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/openid-single_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/smpwservices_de-DE.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/InfoCard_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/usermap_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/oauth_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/usermap_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/fullname_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/chslogin_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/Registration_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/DynamicRetry_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/login_de-DE.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/smaceauth_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/fullname_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/imp_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/deny_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/smpwservices_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/login_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/selectlogin_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/oauth-single_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/smpwservices_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/passport_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/login_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/savecreds_de-DE.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/dmslogout_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/loginusername_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_de-DE/loginandregisterwithforgottenpassword_de-DE.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/loginandregister_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/smpwservices_es-ES.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/usermap_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/InfoCard_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/login-validate_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/openid-single_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/smpwservices_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/oauth-single_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/savecreds_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/openid_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/loginandregisterwithforgottenpassword_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/chslogin_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/deny_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/oauth_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/imp_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/loginandregister_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/oauthcb_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/fullname_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/fullname_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/login_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/passport_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/smpwservices_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/login_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/smaceauth_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/loginusername_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/login_es-ES.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/selectlogin_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/usermap_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/dmslogout_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/reauthenticate_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/safeword_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/msrlogout_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/chslogin_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/Registration_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/savecreds_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/DynamicRetry_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/Registration_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/awdemo_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/transpolar_es-ES.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/smaceauth_es-ES.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/forms_es-ES/DynamicRetry_es-ES.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_ko-KR/csserror_ko-KR.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_ko-KR/cookieerror_ko-KR.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_it-IT/cookieerror_it-IT.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_it-IT/csserror_it-IT.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses/cookieerror.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses/csserror.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_es-ES/csserror_es-ES.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_es-ES/cookieerror_es-ES.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_fr-FR/cookieerror_fr-FR.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_fr-FR/csserror_fr-FR.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_ja-JP/csserror_ja-JP.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_ja-JP/cookieerror_ja-JP.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_en-US/cookieerror_en-US.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_en-US/csserror_en-US.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_de-DE/cookieerror_de-DE.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_de-DE/csserror_de-DE.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_pt-BR/csserror_pt-BR.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/error-responses/responses_pt-BR/cookieerror_pt-BR.err
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/loginusername.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/userlogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/selectlogin.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/DynamicRetry.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/smaceauth.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/awdemo.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/DynamicRetry.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/passport.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/safeword.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/loginandregisterwithforgottenpassword.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/usermap.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/Logout.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/savecreds.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/fullname.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/loginandregister.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/login.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/transpolar.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms/smpwservices.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/loginandregister_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/usermap_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/DynamicRetry_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/awdemo_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/selectlogin_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/login_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/Logout.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/smpwservices_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/safeword_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/savecreds_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/passport_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/transpolar_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/userlogout_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/loginusername_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/smaceauth_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/DynamicRetry_en-US.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/loginandregisterwithforgottenpassword_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/secureforms_en-US/fullname_en-US.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmPortal_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSTools_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/APSAdmin_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/Forgot_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples/APS_Translation_Files/SmCPW_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/AgentFunctions.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/AgentConMgr.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/WebAgentTrace.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/trace.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/conapi.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/LocalConfig.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/config/WebAgent.conf.sample
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/openid-providers-uk.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/openid-providers-en.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/openid-inputicon.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/openid-providers-ru.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/facebook.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/google.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/facebook.ico
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/images/google.ico
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/reauthenticate.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smformscgi.cpp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/savecreds.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/Registration.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/fw2tr.pptemplate
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/fullname.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/usermap.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/login.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/DynamicRetry.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/Registration.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/fullname.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/DynamicRetry.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/loginandregisterwithforgottenpassword.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/tr2fw.pptemplate
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/dmslogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/usermap.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/login.sfcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/imp.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/loginandregister.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/msrlogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/login.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/oauth-single.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/savecreds.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/oauthcb.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/loginandregister.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/chslogin.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/safeword.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/oauth.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/awdemo.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/openid.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/selectlogin.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smpwservices.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/transpolar.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/deny.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/chslogin.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/InfoCard/InformationCards.css
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/InfoCard/images/infocard.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/InfoCard/InformationCards.js
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/login-validate.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/passport.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/loginusername.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/smaceauth_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/InfoCard.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/forms/openid-single.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/dmslogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/DynamicRetry.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/login.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/Registration.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/DynamicRetry.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/savecreds.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/fullname.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/transpolar.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/usermap.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/login.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/smformscgi.cpp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/loginandregister.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/fullname.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/deny.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/Registration.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/usermap.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/msrlogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/savecreds.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/loginandregisterwithforgottenpassword.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsfr/loginandregister.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/smpwservices.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/fullname.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/smpwservices.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/loginandregister.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/Registration.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/smaceauthJA.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/smformscgi.cpp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/msrlogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/DynamicRetry.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/login.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/InfoCard/images/infocard.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/InfoCard/InformationCards.js
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/InfoCard/InformationCards.css
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/smpwservicesja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/loginandregister.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/DynamicRetry.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/usermap.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/fullname.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/deny.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/login.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/transpolar.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/savecreds.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/usermap.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/loginandregisterwithforgottenpassword.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/dmslogout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/Registration.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/savecreds.unauth
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/formsja/InfoCard.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/loginandregister-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/dms2logout.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/login-dms-i.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/login-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/loginandregisterwithforgottenpassword-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/loginandregister-dms-i.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/deny-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsforms/loginandregisterwithforgottenpassword-dms-i.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsformsja/login-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsformsja/loginandregisterwithforgottenpassword-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsformsja/loginandregister-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmsformsja/deny-dms.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmspages/netegrity_logo.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/dmspages/CATechnologies_logo.png
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/regspace_presentation.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/tables/managedorg.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/tables/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/presentation/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/presentation/search.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default_attr-based/presentation/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_ja_JP.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_it_IT.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_ko_KR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_es_ES.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_en_US.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_de_DE.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_fr_FR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/locale/dms_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/tables/role.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/tables/managedorg.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/tables/group.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/tables/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/presentation/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/presentation/search.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/presentation/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/presentation/group.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/ads_default/presentation/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/tables/role.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/tables/group.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/tables/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/tables/managedorg.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_ja_JP.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_it_IT.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_ko_KR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_es_ES.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_en_US.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_de_DE.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_fr_FR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/locale/dms_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/presentation/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/presentation/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/presentation/search.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/presentation/group.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default/presentation/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/OID/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/OID/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/OID/tables/role.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/OID/tables/group.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/iPlanet5.1/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/regspace_tables.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/nds8.6.2/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/nds8.6.2/tables/role.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/nds8.6.2/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/nds8.6.2/tables/group.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/regspace_locale.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default_attr-based/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default_attr-based/tables/managedorg.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default_attr-based/tables/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default_attr-based/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default_attr-based/presentation/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/default_attr-based/presentation/search.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/2/tables/user.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/2/tables/managedorg.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/2/tables/org.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/2/presentation/global.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/properties/2/presentation/search.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/ajax/ajax/ajax.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/ajax/ajax/time.pl
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/ajax/home/custom_web20.xml
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/ajax/home/max.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/ajax/home/home.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/ajax/home/idle.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/flex/flex/sample.mxml
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/flex/flex/BuildSteps.txt
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/flex/flex/flex.zip
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/flex/home/max.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/flex/home/home.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/flex/home/idle.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/jnlp/TestJnlp.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/jnlp/TestJnlp.java
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/jnlp/testKeys
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/jnlp/build.bat
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/jnlp/jnlp.jar
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/Java_Web_Start_Sample_Application.doc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/launch-jnlp/time.pl
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/launch-jnlp/launchJnlp.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/launch-jnlp/createJnlp.pl
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/home/idle.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/home/max.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/JavaWebStart/home/home.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/home/max.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/home/idle.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/home/home.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/silverlight.zip
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/Page.xaml.cs
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/Page.xaml
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/Microsoft SilverLight 2.doc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/samples_default/silverlight/time.asp
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWStartChange.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWExpired.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWSystemPIN.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWChangeAccept.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesKO-KR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWChangeMismatch.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesES-ES.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnChangeOption.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnChangeErr.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnChange.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/siteminder_logo.gif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWAuthLevelLogin.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWSelfChangeLogin.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnAccountInactive.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesDE-DE.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWNextToken.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnChangeMismatch.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWNewPINSelect.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWExcessLogin.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWExpiredLogin.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWSelfChangeAccept.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnAccountDisabled.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWChangeOption.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWUserPIN.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWS.fcc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesFR-FR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesPT-BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnChangeAccept.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnExpired.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesUS-EN.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWChange.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWAccountInactive.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWLogin.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesIT-IT.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWPINAccept.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWnnExcessLogin.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PasswordServicesJP-JP.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWAccountDisabled.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/pw_default/PWChangeErr.template
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/APS_Docs/smaps.user_at.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/APS_Docs/smaps.user_oc.conf
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/APS_Docs/56CA_APS.ldif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/APS_Docs/TDSAPSSchema.ldif
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/APS_Docs/CA_APS-eTrust80-user.dxc
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/customization/ca_defaultpostform.html
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmPortal_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSTools_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/APSAdmin_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/Forgot_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SmCPW_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/SAMLAgent_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_de.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFramework_ja.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_en.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HostRegistrationTool_fr.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentConMgr_it.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/WebAgent_ko.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AffiliateAgent_pt_BR.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/HTTPAgent_es.properties
+                          Status: SUCCESSFUL
+
+Install File:             /appsw/ssoweb/SSO/webagent/resources/AgentFunc_de.properties
+                          Status: SUCCESSFUL
+
+Copy Folder:              Destination: /appsw/ssoweb/SSO/webagent/samples
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/jpw/
+                          Status: SUCCESSFUL
+
+Copy Folder:              Destination: /appsw/ssoweb/SSO/webagent/jpw
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/pw/
+                          Status: SUCCESSFUL
+
+Copy Folder:              Destination: /appsw/ssoweb/SSO/webagent/pw
+                          Status: SUCCESSFUL
+
+
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+Executable command: chmod +x /appsw/ssoweb/SSO/webagent/ca_wa_env.sh
+
+
+STDOUT: 
+
+
+STDERR: 
+
+
+RETURN_VALUE: 0
+
+Custom Action:            com.netegrity.webagent.install.CreateEnvironmentFile
+                          Status: SUCCESSFUL
+
+
+UpdateProductInfo.install()
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+UpdateProductInfo.setupData()
+
+
+UpdateProductInfo.writeDataOut()
+
+
+UpdateProductInfo.writeDataToFile()
+
+
+Keys writen to file /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-version.info
+
+Custom Action:            com.netegrity.brlib.systeminfo.UpdateCAProductInfo
+                          Status: SUCCESSFUL
+
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/install_config_info/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-uninstall/
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      CA SiteMinder Web Agent(Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/install_config_info/install_config_jre
+                          Status: SUCCESSFUL
+
+Install JRE:              /appsw/ssoweb/SSO/webagent/install_config_info/install_config_jre
+                          Status: SUCCESSFUL
+
+
+Install File:             /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-uninstall/uninstall.lax
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      CA SiteMinder Web Agent(Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /appsw/ssoweb/SSO/webagent/ca-wa-uninstall.sh
+                          Status: SUCCESSFUL
+
+Execute Command:          chmod 775 /appsw/ssoweb/SSO/webagent/ca-wa-uninstall.sh
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-uninstall/custom-uninstall.sh
+                          Status: SUCCESSFUL
+
+Execute Command:          chmod 775 /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-uninstall/custom-uninstall.sh
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.zerog.ia.customcode.actions.ExecuteUninstallCommand
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /appsw/ssoweb/SSO/webagent/ca-wa-config.sh
+                          Status: SUCCESSFUL
+
+Execute Command:          chmod 775 /appsw/ssoweb/SSO/webagent/ca-wa-config.sh
+                          Status: SUCCESSFUL
+
+
+
+Install File:             /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-installer.properties
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+Executable command: chmod +x /appsw/ssoweb/SSO/webagent/jpw/jpw.jar
+
+
+STDOUT: 
+
+
+STDERR: 
+
+
+RETURN_VALUE: 0
+
+Custom Action:            com.netegrity.webagent.install.ProcessAfterDataMove
+                          Status: SUCCESSFUL
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+
+StringUtils.stripFrontEndDoubleQuotes()
+
+
+String does not contains '"' in it.
+
+Custom Action:            com.netegrity.webagent.UpdateWebRootsConf
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Install Directory:        /appsw/ssoweb/CA/
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/CA/install-info/
+                          Status: SUCCESSFUL
+
+Install Directory:        /tmp/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Delete Folder:            Source:nete-wa-uninstall
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source /appsw/ssoweb/SSO/webagent/install_config_info/nete-wa-uninstall does not exist.
+
+Delete File:              Source:nete-wa-details.log
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-wa-details.log does not exist.
+
+Delete File:              Source:nete-wa-config.bin
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-wa-config.bin does not exist.
+
+Delete File:              Source:nete-wa-uninstall.sh
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-wa-uninstall.sh does not exist.
+
+Delete File:              Source:nete-agent-install-debuginfo.txt
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-agent-install-debuginfo.txt does not exist.
+
+Delete File:              Source:nete-wa-installer.properties
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-wa-installer.properties does not exist.
+
+Delete File:              Source:nete-wa-config.sh
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-wa-config.sh does not exist.
+
+Delete File:              Source:nete-wa-version.info
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete-wa-version.info does not exist.
+
+Delete File:              Source:nete_wa_env.sh
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Source file nete_wa_env.sh does not exist.
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/bin/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Install File:             /appsw/ssoweb/SSO/webagent/bin/SmPortal.cfg
+                          Status: SUCCESSFUL
+
+Install Directory:        /appsw/ssoweb/SSO/webagent/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+
+Modify Text File - Single File:   /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-uninstall/uninstall.lax
+                          Status: SUCCESSFUL
+
+Delete Folder:            Source:formsja
+                          Status: SUCCESSFUL
+
+Delete Folder:            Source:formsfr
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   /appsw/ssoweb/SSO/webagent/ca_wa_env.sh
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-details.log
+                          Status: SUCCESSFUL
+
+
+
+Modify Text File - Single File:   /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-installer.properties
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-installer.properties
+                          Status: SUCCESSFUL
+
+
+
+
+
+
+Modify Text File - Single File:   /appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-details.log
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.netegrity.brlib.utilities.log.LogDate
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /appsw/ssoweb/CA/install-info/ca-install-history.log
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   /appsw/ssoweb/CA/install-info/ca-install-history.log
+                          Status: SUCCESSFUL
+

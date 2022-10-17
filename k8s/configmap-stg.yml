@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  sso.ip: 172.31.228.31
+  sso.ip2: 172.31.228.33
+  sso.hco: skt_common_hco1
+  sso.hco2: skt_common_hco1
+kind: ConfigMap
+metadata:
+  name: sso-config
+  namespace: apih-stg

@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Custom Auto-POST Form</title>
+    </head>
+    <body onLoad="document.forms[0].submit()">
+        <noscript>
+            Your browser does not support JavaScript.  Please click the 'Continue' button below
+            to proceed.
+        </noscript>
+        <form method="POST" action="$$target$$">
+            $$fedparams$$
+            <noscript>
+                <input type="submit" value="Continue"/>
+            </noscript>
+        </form>
+    </body>
+</html>

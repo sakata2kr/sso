@@ -1,0 +1,49 @@
+# DOCKER_REGISTRY
+# [ PRD ]     swgp.icp.skt.com:8500
+# [ STG/DEV ] swgd.icp.skt.com:8500
+#
+# 1. CentOS        => /infra/centos:centos7.6.1810
+# 2. Apache 2.4.39 => swgp.icp.skt.com:8500/infra/mwpack/apache:2.4.39
+
+ARG DOCKER_REGISTRY
+# Apache Base Image
+FROM ${DOCKER_REGISTRY}/infra/mwpack/apache:2.4.39
+
+# docker Agent Path : /software/ssoweb/SSO/webagent
+# docker apache Path : /software/apache/servers/apache_svr1/conf
+
+# [ BUILD ONLY local ]
+#USER root
+#RUN yum update --assumeyes --skip-broken && \
+#      yum install --assumeyes telnet && \
+#      yum clean all
+#USER webwas
+
+# WebAgent setting
+RUN mkdir /software/ssoweb
+RUN mkdir /software/ssoweb/SSO
+COPY webagent /software/ssoweb/SSO/webagent
+
+# Shell file
+COPY rathon.sh /software/ssoweb/SSO/rathon.sh
+
+# Apache setting
+RUN echo 'LoadModule sm_module "/software/ssoweb/SSO/webagent/bin/libmod_sm24.so"' >> /software/apache/servers/apache_svr1/conf/httpd.conf
+RUN echo 'SmInitFile "/software/apache/servers/apache_svr1/conf/WebAgent.conf"' >> /software/apache/servers/apache_svr1/conf/httpd.conf
+COPY apache/WebAgent.conf  /software/apache/servers/apache_svr1/conf/WebAgent.conf
+COPY apache/AgentId.dat /software/apache/servers/apache_svr1/conf/AgentId.dat
+
+ENV LD_LIBRARY_PATH /software/ssoweb/SSO/webagent/bin:software/ssoweb/SSO/webagent/bin/thirdparty:${LD_LIBRARY_PATH}
+ENV PATH /software/ssoweb/SSO/webagent/bin:$PATH
+
+USER root
+
+RUN chown -R webwas:webwas /software/ssoweb
+RUN chmod 751 /software/ssoweb/SSO/rathon.sh
+RUN chmod 755 /software/apache/servers/apache_svr1/conf/WebAgent.conf
+
+USER webwas
+
+WORKDIR /
+CMD ["sh", "-c", "/software/ssoweb/SSO/rathon.sh"]
+#CMD ["/bin/bash", "/software/apache/servers/apache_svr1/shl/start.sh"]

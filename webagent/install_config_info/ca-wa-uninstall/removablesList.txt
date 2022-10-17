@@ -1,0 +1,2 @@
+/appsw/ssoweb/SSO/webagent/install_config_info/ca-wa-details.log
+/appsw/ssoweb/CA/install-info/ca-install-history.log

@@ -1,0 +1,1 @@
+rm -rf ./swing-sso

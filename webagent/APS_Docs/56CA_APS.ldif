@@ -1,0 +1,42 @@
+dn: cn=schema
+objectClass: top
+objectClass: ldapSubentry
+objectClass: subschema
+cn: schema
+objectClasses: ( 1.3.6.1.4.1.2552.1.1.9.1  NAME 'smapsInfo' AUXILIARY 
+ MAY ( smapsAccountInactivityDays $ smapsBaseDate $ smapsDisableAfter $ smapsDisableUntil $ smapsExpirePasswordDays $ 
+ smapsFailureCount $ smapsFailuresSinceLastLogin $ smapsFailuresSincePreviousLogin $ smapsGenerationalRedirects $ 
+ smapsGraceLoginsUsed $ smapsHistory $ smapsImmediateChange $ smapsInactivityWarning $ smapsLastLogin $ 
+ smapsLastPasswordChange $ smapsLoginHistory $ smapsMaxFailures $ smapsMustLoginBy $ smapsNextAction $ 
+ smapsOldBlob $ smapsPassword $ smapsPreviousLogin $ smapsTotalFailures $ smapsTotalLogins $ 
+ smfpsLockoutCounter $ smfpsLog $ smfpsOneShot $ smapsRealmBasedFailureCount)                                                                                     X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.6  NAME 'smapsExpirePasswordDays'         SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.23 NAME 'smapsPreviousLogin'              SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.2  NAME 'smapsAccountInactivityDays'      SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.3  NAME 'smapsBaseDate'                   SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.20 NAME 'smapsNextAction'                 SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.15 NAME 'smapsLastLogin'                  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.26 NAME 'smfpsLockoutCounter'             SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.13 NAME 'smapsImmediateChange'            SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.8  NAME 'smapsFailuresSinceLastLogin'     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.21 NAME 'smapsOldBlob'                    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.7  NAME 'smapsFailureCount'               SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.25 NAME 'smapsTotalLogins'                SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.11 NAME 'smapsGraceLoginsUsed'            SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.10 NAME 'smapsGenerationalRedirects'      SYNTAX 1.3.6.1.4.1.1466.115.121.1.15              X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.5  NAME 'smapsDisableUntil'               SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.22 NAME 'smapsPassword'                   SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.19 NAME 'smapsMustLoginBy'                SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.27 NAME 'smfpsLog'                        SYNTAX 1.3.6.1.4.1.1466.115.121.1.15              X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.4  NAME 'smapsDisableAfter'               SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.9  NAME 'smapsFailuresSincePreviousLogin' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.17 NAME 'smapsLoginHistory'               SYNTAX 1.3.6.1.4.1.1466.115.121.1.15              X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.12 NAME 'smapsHistory'                    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.18 NAME 'smapsMaxFailures'                SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.16 NAME 'smapsLastPasswordChange'         SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.28 NAME 'smfpsOneShot'                    SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.24 NAME 'smapsTotalFailures'              SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.14 NAME 'smapsInactivityWarning'          SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+attributeTypes: ( 1.3.6.1.4.1.2552.1.1.9.29 NAME 'smapsRealmBasedFailureCount'     SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE X-ORIGIN 'Netegrity APS' )
+
+

@@ -1,0 +1,50 @@
+#!/bin/sh
+#echo "/appsw/ssoweb/SSO/webagent/bin" > /etc/ld.so.conf.d/sso.conf
+#ldconfig
+
+# CA WebAgent ENV PATH (ca_wa_env.sh)
+NETE_WA_ROOT=/appsw/ssoweb/SSO/webagent
+export NETE_WA_ROOT
+NETE_WA_RATH=${NETE_WA_ROOT}/bin
+export NETE_WA_RATH
+
+CAPKIHOME=/appsw/ssoweb/SSO/webagent/CAPKI
+export CAPKIHOME
+
+LD_LIBRARY_PATH=${NETE_WA_ROOT}/bin:${NETE_WA_ROOT}/bin/thirdparty:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+
+PATH=${NETE_WA_RATH}:${PATH}
+export PATH
+
+#CA WebAgent smreghost
+# ~\~\, ~Z~X~A ~D~U~X~W ~B~Z (~H~X| ~U~U~D~Z~T)
+export SSO_IP="223.39.8.19"
+
+export SSO_SMUSER="siteminder"
+export SSO_PASSWORD="siteminder"
+
+# ~\~\, ~Z~X~A ~D~U~X~W ~B~Z (~H~X| ~U~U~D~Z~T)
+export SSO_HCO="skt_common3_hco1"
+
+export AGENT_TRUSTED_HOST=${HOSTNAME}
+#export AGENT_SHAREDSECRET=
+
+${NETE_WA_RATH}/smreghost -i ${SSO_IP} -u ${SSO_SMUSER} -p ${SSO_PASSWORD} -hn ${AGENT_TRUSTED_HOST} -hc ${SSO_HCO} -f ${NETE_WA_ROOT}/config/SmHost.conf
+
+cd /appsw/ssoweb/SSO/webagent/config
+#chown root:www-data SmHost.conf
+
+chmod 777 SmHost.conf
+#CA_WebAgent ENV
+#. /appsw/ssoweb/SSO/webagent/ca_wa_env.sh
+
+#Apache Service Start
+cd /usr/local
+chown -R root:root apache2
+
+RTSYNC_HOME_PATH=/usr/local/apache2
+export APACHE_RUN_CMD="start -DFOREGROUND"
+#export APACHE_RUN_CMD="start"
+
+${RTSYNC_HOME_PATH}/bin/apachectl ${APACHE_RUN_CMD}

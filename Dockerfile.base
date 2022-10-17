@@ -1,0 +1,18 @@
+# [ PRD ]
+# 1. CentOS        => swgp.icp.skt.com:8500/infra/centos:centos7.6.1810
+# 2. Apache 2.4.39 => swgp.icp.skt.com:8500/infra/mwpack/apache:2.4.39
+
+ARG DOCKER_REGISTRY
+# Apache Base Image
+FROM ${DOCKER_REGISTRY}/infra/mwpack/apache:2.4.39
+
+# docker Agent Path : /software/ssoweb/SSO/webagent
+# docker apache Path : /software/apache/servers/apache_svr1/conf
+
+USER root
+RUN yum update --assumeyes --skip-broken && \
+      yum install --assumeyes bash telnet curl wget which vim && \
+      yum clean all
+
+WORKDIR /
+CMD ["/bin/bash", "/software/apache/servers/apache_svr1/shl/start.sh"]

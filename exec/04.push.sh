@@ -1,0 +1,1 @@
+docker push beatific/sso:1.0.0

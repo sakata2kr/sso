@@ -1,0 +1,1 @@
+docker build -t beatific/sso:1.0.0 ..

@@ -1,0 +1,1 @@
+git clone http://p0475480@devops.sktelecom.com/mygit/scm/swa/swing-sso.git
